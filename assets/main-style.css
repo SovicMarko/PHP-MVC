@@ -1,0 +1,96 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+.glyphicon {
+    font-family: "Glyphicons Halflings" !important;
+}
+body {
+    position: relative;
+}
+
+.admin-side-nav {
+    position: absolute;
+    top: 180px;
+    left: 0px;
+    display: block;
+    width: 15%;
+    text-align: right;
+    animation: animate-admin-nav 0.6s;
+}
+
+@keyframes animate-admin-nav {
+    from {left: -20%;}
+    to {left:0px;}
+}
+
+.admin-counter {
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.admin-counter h2 {
+    background-color: #f2dcd6;
+    padding: 10px 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.admin-counter h1 {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+#add-cathegory {
+    width: 0px;
+    display: none;
+    vertical-align: top;
+}
+#confirm-btn {
+    vertical-align: top;
+}
+.cathegory-dlt-btn {
+    float: right;
+    padding-left: 20px;
+    color: gray;
+    cursor: pointer;
+}
+
+.cathegory-plus-btn {
+    float: right;
+    padding-left: 20px;
+}
+
+.subcathegory-dlt-btn {
+    padding-right: 34px;
+}
+.cathegory-dlt-btn:hover {
+    color: #a94442;
+}
+.cathegory-badge {
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+    background-color: #dff0d8;
+}
+
+.sub-cat-list {
+    display: none;
+}
+
+.active-cat {
+    background-color: beige;
+}
+.hide {
+    /* display: none; */
+}
+
+.article {
+    text-align: center;
+}
+.article img {
+    width: 100%;
+}
